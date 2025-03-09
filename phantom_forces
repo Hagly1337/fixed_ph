@@ -5064,7 +5064,7 @@ local Storage = {
     Groups.Misc.Movement:AddSlider('FlyHackValue', {
         Text = 'Flyhack speed', Tooltip = nil,
 
-        Default = 50,  Min = 0,  Max = 50, Rounding = 1,
+        Default = 0,  Min = 0,  Max = 15, Rounding = 1,
         Compact = false,
 
         Callback = function(Value)
