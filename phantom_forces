@@ -5054,7 +5054,7 @@ local Storage = {
     })
 
     Groups.Misc.Movement:AddToggle('FlyHack', {
-        Text = 'Flyhack', Tooltip = nil,
+        Text = 'Flyhack(dont use cuz its fixe)', Tooltip = nil,
         Default = false,
 
         Callback = function(Value)
