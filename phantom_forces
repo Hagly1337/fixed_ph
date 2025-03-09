@@ -1,6 +1,7 @@
 
--- Developers only, extra debugging options.
 local OverrideUserSettings = true
+
+
 -- Script Info:
 -- Script date, Project created (6/13/2024 : 5:18 PM)
 -- Script name: Redacted-project (placeholder)
@@ -4599,6 +4600,7 @@ local Storage = {
 
     local Tabs = {
         Ragebot = Window:AddTab('Ragebot'),
+        Antiaim = Window:AddTab('Anti-aim'),
         Visuals = Window:AddTab('Visuals'),
         Misc = Window:AddTab('Miscellaneous'),
         Settings = Window:AddTab('Settings')
@@ -4607,6 +4609,7 @@ local Storage = {
     local Groups = {
         Ragebot = {
             General = Tabs.Ragebot:AddLeftGroupbox('General'),
+            Other = Tabs.Ragebot:AddRightGroupbox('Other')
         },
 
         Antiaim = {
@@ -4618,6 +4621,8 @@ local Storage = {
         Visuals = {
             Players = Tabs.Visuals:AddLeftGroupbox('Players'),
             World = Tabs.Visuals:AddRightGroupbox('World'),
+
+            Throwables = Tabs.Visuals:AddLeftGroupbox('Throwables'),
             Other = Tabs.Visuals:AddRightGroupbox('Other')
         },
 
@@ -5047,7 +5052,7 @@ local Storage = {
     })
 
     Groups.Misc.Movement:AddToggle('FlyHack', {
-        Text = 'Flyhack(dont use cuz its fixe)', Tooltip = nil,
+        Text = 'Flyhack', Tooltip = nil,
         Default = false,
 
         Callback = function(Value)
@@ -5057,7 +5062,7 @@ local Storage = {
     Groups.Misc.Movement:AddSlider('FlyHackValue', {
         Text = 'Flyhack speed', Tooltip = nil,
 
-        Default = 0,  Min = 0,  Max = 15, Rounding = 1,
+        Default = 50,  Min = 0,  Max = 50, Rounding = 1,
         Compact = false,
 
         Callback = function(Value)
@@ -5076,7 +5081,7 @@ local Storage = {
     Groups.Misc.Movement:AddSlider('SpeedHackValue', {
         Text = 'Speedhack speed', Tooltip = nil,
 
-        Default = 0,  Min = 0,  Max = 100, Rounding = 1,
+        Default = 50,  Min = 0,  Max = 50, Rounding = 1,
         Compact = false,
 
         Callback = function(Value)
