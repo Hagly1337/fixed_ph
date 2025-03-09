@@ -5083,7 +5083,7 @@ local Storage = {
     Groups.Misc.Movement:AddSlider('SpeedHackValue', {
         Text = 'Speedhack speed', Tooltip = nil,
 
-        Default = 50,  Min = 0,  Max = 50, Rounding = 1,
+        Default = 0,  Min = 0,  Max = 100, Rounding = 1,
         Compact = false,
 
         Callback = function(Value)
