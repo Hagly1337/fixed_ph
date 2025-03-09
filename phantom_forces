@@ -4599,7 +4599,6 @@ local Storage = {
 
     local Tabs = {
         Ragebot = Window:AddTab('Ragebot'),
-        Antiaim = Window:AddTab('Anti-aim'),
         Visuals = Window:AddTab('Visuals'),
         Misc = Window:AddTab('Miscellaneous'),
         Settings = Window:AddTab('Settings')
@@ -4608,7 +4607,6 @@ local Storage = {
     local Groups = {
         Ragebot = {
             General = Tabs.Ragebot:AddLeftGroupbox('General'),
-            Other = Tabs.Ragebot:AddRightGroupbox('Other')
         },
 
         Antiaim = {
@@ -4620,8 +4618,6 @@ local Storage = {
         Visuals = {
             Players = Tabs.Visuals:AddLeftGroupbox('Players'),
             World = Tabs.Visuals:AddRightGroupbox('World'),
-
-            Throwables = Tabs.Visuals:AddLeftGroupbox('Throwables'),
             Other = Tabs.Visuals:AddRightGroupbox('Other')
         },
 
