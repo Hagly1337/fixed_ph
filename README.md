@@ -6,3 +6,17 @@ Autoshoot and fakelags is hidden via -- (just remove -- and u got 2 new function
 WaveRenderer no needed but i think if removed solaras library and put waverenderer fix problem too
 I dont wanna to update fix script cuz it shit and originally person who maded this script i dont remember||
 If i buy a new executor ill add a new esp with silent aim but u need a cool executor with bloxstrap with 1 command
+
+
+
+
+
+
+
+
+
+
+
+
+
+Maybe i reworked ph script but it got worst ui but got good functions
