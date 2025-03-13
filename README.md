@@ -20,3 +20,4 @@ If i buy a new executor ill add a new esp with silent aim but u need a cool exec
 
 
 Maybe i reworked ph script but it got worst ui but got good functions
+Cuz i cant working with his ui(original dev script) 
